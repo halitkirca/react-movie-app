@@ -1,5 +1,5 @@
 import React from 'react'
-import "./MovieDetails.css";
+import "./MovieDetail.css";
 import { useLocation, useNavigate } from 'react-router-dom';
 
 const MovieDetail = () => {
