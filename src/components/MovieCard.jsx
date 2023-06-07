@@ -9,7 +9,7 @@ const MovieCard = ({props}) => {
   return (
     <div
       className="card"
-      onClick={() => navigate("/movieDetails", { state: { props } })}
+      onClick={() => navigate("/movieDetail", { state: { props } })}
     >
       <img
         src={"https://image.tmdb.org/t/p/w1280" + props.poster_path}
