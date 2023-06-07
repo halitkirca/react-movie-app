@@ -8,7 +8,6 @@ import Register from "../pages/Register";
 
 const router = () => {
   return (
-    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -21,7 +20,6 @@ const router = () => {
 
         </Routes>
       </BrowserRouter>
-    </div>
   );
 }
 
