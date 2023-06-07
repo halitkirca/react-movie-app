@@ -1,0 +1,42 @@
+
+.card {
+    width: 300px;
+    height: fit-content;
+    color: white;
+    position: relative;
+    cursor: pointer;
+
+    background-color: rgb(75, 131, 236);
+    border-radius: 10px 10px 5px 5px;
+    
+}
+.card img {
+        border-radius: 10px 10px 0px 0px;
+}
+.card:hover p {
+    display: block;
+}
+
+.card h1 {
+    background-color: rgb(75, 131, 236);
+    font-size: larger;
+    padding: 0px 10px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.card p {
+    /* display: none; */
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 1rem;
+    font-size: larger;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.cardbasics{
+    display: flex;
+    justify-content: space-between;
+    
+}
