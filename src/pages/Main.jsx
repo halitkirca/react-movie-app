@@ -19,7 +19,7 @@ const Main = () => {
 
     useEffect(() => {
         getData(url);
-    }, []);
+    });
 
   return (
     <div>
